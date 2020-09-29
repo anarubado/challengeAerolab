@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    color: #616161;
+    letter-spacing: -0.15px;
+    line-height: 48px;
+    text-align: left;
+}
+
+/* header */
+
+.header {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    background:#ffffff;
+    padding: 0px 42px;
+}
+
+.userInfo .points {
+    background:#ededed;
+    border-radius: 100px;
+    width: 103px;
+    height: 48px;
+    padding: 13px;
+}
+
+/* banner */
+
+.banner img{
+    width: 100%;
+}
