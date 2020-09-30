@@ -13,14 +13,26 @@ body {
 
 /* header */
 
-.header {
+header {
     height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: space-between;
     background:#ffffff;
-    padding: 0px 42px;
+    padding: 0px 20px;
+}
+
+.logo {
+    align-self: flex-start;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.userInfo {
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .userInfo .points {
@@ -29,10 +41,41 @@ body {
     width: 103px;
     height: 48px;
     padding: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
 }
 
 /* banner */
 
-.banner img{
+.banner {
+    position: relative;
+}
+
+.banner img {
     width: 100%;
+}
+
+.banner .electronics {
+    position: absolute;
+    bottom: 40px;
+    left: 130px;
+    color: white;
+}
+
+/* products */
+
+.item div {
+    position: relative;
+}
+
+.item div img {
+    width: 100%;
+}
+
+.shoppingBag {
+    position: absolute;
+    right: 10px;
+    top: 10px;
 }
